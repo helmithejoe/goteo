@@ -20,23 +20,23 @@ debug: true # whether to show trace for errors or not
 node: goteo
 
 # Default system language
-lang: es
+lang: en
 
 # Default system language (for SQL tables)
 # (DO NO CHANGE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)
 sql_lang: es
 
 # Default public currency for the website
-currency: EUR
+currency: IDR
 
 # Default timezone
-timezone: Europe/Madrid
+timezone: Asia/Jakarta
 
 # url
 url:
-    main: //0.0.0.0:8081
+    main: //104.199.235.172:80
     # static resources url if you use a different assets server
-    assets: //0.0.0.0:8081
+    assets: //104.199.235.172:80
     #optional, configure this as hostname only (ex: example.com) if you want languages to be selected as subdomains (es.example.com, en.example.com)
     # url_lang: 0.0.0.0:8081
 
@@ -149,9 +149,9 @@ proxies:
 
 
 # Default commission fee
-fee: 4
+fee: 100
 # VAT to apply to the commission fee
-vat: 10.5 # In Spain VAT is 21% but as a foundation and other considerations only applies at 50%
+vat: 2.5 # In Spain VAT is 21% but as a foundation and other considerations only applies at 50%
 
 # Filesystem used by goteo
 filesystem:

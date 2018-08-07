@@ -21,16 +21,16 @@ use Goteo\Library\Converter;
 
 class Currency {
 
-    protected static $default_currency = 'EUR';
+    protected static $default_currency = 'IDR';
     protected static $converter;
 
     static public $currencies = array(
 
-        'EUR' => array(
-            'id' => 'EUR',
-            'name' => 'Euro',
-            'symbol' => '€',
-            'html' => '€', // legacy var
+        'IDR' => array(
+            'id' => 'IDR',
+            'name' => 'Rupiah',
+            'symbol' => 'Rp',
+            'html' => 'Rp', // legacy var
             'thousands' => '.',
             'thou' => '.', // Legacy var
             'decimal'  => ',',

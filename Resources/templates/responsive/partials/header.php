@@ -10,6 +10,7 @@
       <?php $this->stop(); ?>
     </div><!--/.navbar-header -->
 
+    <!--
     <div class="navbar-always">
       <?php if (!$this->get_user()) : ?>
         <a class="hidden-xs" href="/signup?return=<?= $this->get_uri() ?>"><?= $this->text('menu-signup') ?></a>
@@ -23,7 +24,9 @@
         <span class="close-menu"><i class="icon icon-close"></i></span>
       </button>
     </div>
+    -->
 
+    <!--
     <div class="top-menu" id="user-menu">
       <?= $this->supply('global-user-menu', $this->insert('partials/header/menu', ['target' => 'user-menu', 'menu' => $this->get_user_menu()])) ?>
     </div>
@@ -31,6 +34,7 @@
     <div class="top-menu" id="main-menu">
       <?= $this->supply('global-main-menu', $this->insert('partials/header/menu', ['target' => 'main-menu', 'menu' => $this->get_main_menu(), 'bottom' => [['link' => $this->lang_host() . 'project/create', 'a_class' => 'btn-fashion', 'text' => $this->text('regular-create')] ]])) ?>
     </div>
+    -->
 
   </div><!--/.container -->
 </nav>

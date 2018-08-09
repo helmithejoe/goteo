@@ -3,9 +3,9 @@
     <div class="navbar-header">
       <?php $this->section('header-navbar-brand') ?>
       <?php if($this->navClass): ?>
-      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/logo.png') ?>" class="logo" alt="Goteo"></a>
+      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/danasiswa.png') ?>" class="logo" alt="Goteo"></a>
       <?php else: ?>
-      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/logo.png') ?>" class="logo" alt="Goteo"></a>
+      <a class="navbar-brand" href="<?= $this->get_config('url.main') ?>"><img src="<?= $this->asset('img/danasiswa.png') ?>" class="logo" alt="Goteo"></a>
       <?php endif ?>
       <?php $this->stop(); ?>
     </div><!--/.navbar-header -->

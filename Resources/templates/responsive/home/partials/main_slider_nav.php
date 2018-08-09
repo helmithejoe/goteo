@@ -1,3 +1,4 @@
+<!--
 <nav>
     <ul class="list-inline navbar-right hidden-xs">
         <li>
@@ -12,3 +13,4 @@
         </li>
     </ul>
 </nav>
+-->

@@ -20,7 +20,7 @@ debug: true # whether to show trace for errors or not
 node: goteo
 
 # Default system language
-lang: en
+lang: id
 
 # Default system language (for SQL tables)
 # (DO NO CHANGE THIS UNLESS YOU KNOW WHAT YOU'RE DOING)

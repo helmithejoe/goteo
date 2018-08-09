@@ -9,7 +9,7 @@ session:
     time: 3600
 
 # Internal secret for hashes
-secret: --a-very-secret-string---
+secret: jkwehrWERjdfuwfk56khofWEWewe
 
 # local environment: local, beta, real
 env: local # set to real to send emails
@@ -195,7 +195,7 @@ db:
 
 # HTML Metas
 meta:
-    title:       "Development Goteo"       # Html default <title>
+    title:       "Dana Siswa"       # Html default <title>
     description: "--meta-description--" # Html default <meta description>
     keywords:    "--keywords--"         # Html default <meta keywords>
     author:      "--author--"           # Html default <meta author>
@@ -234,7 +234,7 @@ mail:
 
     transport:
         from:          noreply@localhost
-        name:          Goteo Sender
+        name:          Danasiswa Sender
         type:          smtp
         # if type is smtp:
         smtp:

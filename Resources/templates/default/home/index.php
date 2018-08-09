@@ -42,7 +42,7 @@ $this->section('sub-header');
                 <?php endif; ?>
             </div>
 
-        <?= $this->supply('index-sub-header-right', '<img src="/logo.jpeg" alt="Goteo">') ?>
+        <?= $this->supply('index-sub-header-right', '<img src="/goteo_logo.png" alt="Goteo">') ?>
 
         </div>
         <div class="sliderbanners-ctrl">
